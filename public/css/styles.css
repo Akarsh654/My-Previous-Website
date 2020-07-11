@@ -1,0 +1,251 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    background-color: white;
+}
+
+.head {
+    color: white;
+}
+
+h1 {
+    color: #00adfc;
+}
+
+h2 {
+    color: #00adfc;
+}
+
+h4 {
+    line-height: 1.8;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+.landing-content {
+    font-size: 20px;
+    font-family: CircularStd, sans-serif;
+    font-weight: 900;
+}
+
+.copyright {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.postLines {
+    margin-top: -1%;
+    white-space: pre-line;
+    word-break: break-all;
+}
+
+.iframely-responsive {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.iframely-responsive>* {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: 0;
+}
+
+#stylized label {
+    font-size: 11px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#stylized input {
+    font-size: 11px;
+    padding: 4px 2px;
+    border: solid 1px #aacfe4;
+    width: 70px;
+    margin: 2px 0 20px 10px;
+    display: block;
+}
+
+.ml {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.myPic {
+    flex-shrink: 0;
+    width: 25%;
+    height: 100%;
+    float: left;
+    margin-left: 0px;
+}
+
+.topPic {
+    display: flex;
+    background-size: cover;
+    text-align: left;
+    padding-top: 10px;
+    margin-left: auto;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.top {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.middle {
+    margin-bottom: -1px;
+    border-radius: 0;
+}
+
+.bottom {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    -webkit-user-drag: none;
+    padding-right: 10px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.navbar {
+    background-color: #80CFF3;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+    padding-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #80CFF3;
+}
+
+.footer p {
+    font-size: 12px;
+    margin-bottom: 0;
+    color: #000;
+    background-color: #80CFF3;
+}
+
+ul.socialIcons {
+    text-align: center;
+    background-color: #80CFF3;
+}
+
+.socialIcons li {
+    background-color: yellow;
+    list-style: none;
+    display: inline-block;
+    margin: 4px;
+    border-radius: 2em;
+    overflow: hidden;
+}
+
+.socialIcons li a {
+    padding-top: 10px;
+    display: block;
+    padding: 0.5em;
+    min-width: 1.28571429em;
+    max-width: 1.88571429em;
+    height: 2.28571429em;
+    white-space: nowrap;
+    line-height: 1.5em;
+    /*it's working only when you write text with icon*/
+    transition: 0.5s;
+    text-decoration: none;
+    font-family: arial;
+    color: #fff;
+}
+
+.socialIcons li i {
+    margin-right: 0.5em;
+}
+
+.socialIcons li:hover a {
+    max-width: 200px;
+    padding-right: 1em;
+}
+
+.socialIcons .linkedin {
+    text-align: center;
+    background-color: #0177B5;
+    box-shadow: 0px 0px 16px #035e8e;
+}
+
+.socialIcons .discord {
+    text-align: center;
+    background-color: #00aced;
+    box-shadow: 0 0 16px #00aced;
+}
+
+.socialIcons .github {
+    text-align: center;
+    background-color: #BBBBBB;
+    box-shadow: 0px 0px 16px #9a9a9a;
+}
