@@ -1,0 +1,47 @@
+<%- include("partials/header"); -%>
+
+    <h1>Compose</h1>
+
+    <form class="" action="/compose" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+
+            <label>Title</label>
+            <input class="form-control" type="text" name="postTitle">
+
+            <label>Post</label>
+            <textarea class="form-control" name="postBody" rows="5" cols="30" wrap="hard"></textarea>
+
+
+
+            <!-- <label>Files</label>
+            <input class="form-control" name="postFile" type="file" id="uploadFile"> -->
+
+            <label>URL</label>
+            <input class="form-control" type="postURL" name="postURL">
+
+            <label>SimpleURL</label>
+            <input class="form-control" type="postURL" name="simpleURL">
+
+            <label>GitURL</label>
+            <input class="form-control" type="postURL" name="gitURL">
+
+            <!-- <input type="file" accept="image/*" onchange="loadFile(event)">
+            <img id="output" />
+            <script>
+                var loadFile = function(event) {
+                    var output = document.getElementById('output');
+                    output.src = URL.createObjectURL(event.target.files[0]);
+                    output.onload = function() {
+                        URL.revokeObjectURL(output.src) // free memory
+                    }
+                };
+            </script> -->
+
+
+        </div>
+
+        <button class="btn btn-primary" type="submit" name="button" value="Upload">Publish</button>
+
+    </form>
+
+    <%- include("partials/footer"); -%>
