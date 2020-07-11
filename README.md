@@ -1,6 +1,6 @@
 # My-Personal-Website
 
-I used the following bunch of tools to build my website from scratch:
+I used the following bunch of tools to build my website from scratch :
 
 Front-end languages: HTML, CSS, JavaScript
 Front-end frameworks: Bootstrap, jQuery
