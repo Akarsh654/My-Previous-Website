@@ -12,7 +12,7 @@ I used the following bunch of tools to build my website from scratch :
 
 ---
 
-<img src="https://i.morioh.com/1f14860de0.png"width="400" height="300"/>
+<img src="https://i.morioh.com/1f14860de0.png" width="400" height="300"/>
 * Back-end languages: Node.js
 * Back-end frameworks: Express.js
 * Database: MongoDB(Mongoose)
