@@ -10,6 +10,6 @@ I used the following bunch of tools to build my website from scratch :
 
 <h3> You can view my website at </h3>
 
-* [akrashsharma](http://akrashsharma.com/)
+ [akrashsharma](http://akrashsharma.com/)
 
 I will be posting all my major projects on my website and ensure it is up to date!
