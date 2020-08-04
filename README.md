@@ -8,5 +8,6 @@ I used the following bunch of tools to build my website from scratch :
 * Back-end frameworks: Express.js
 * Database: MongoDB(Mongoose)
 
-<h3> You can view my website at * [akrashsharma.com](http://akrashsharma.com/) </h3>
+<h3> You can view my website at </h3>
+* [akrashsharma.com](http://akrashsharma.com/) 
 I will be posting all my major projects on my website and ensure it is up to date!
