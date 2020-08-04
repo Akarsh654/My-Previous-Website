@@ -117,10 +117,10 @@ app.post("/", function(req, res) {
         }]
     }
     const jsonData = JSON.stringify(data);
-    const myurl = 'https://us10.api.mailchimp.com/3.0/lists/6446b8dfdd';
+    const myurl = ''; 
     const options = {
         method: "POST",
-        auth: "Akrash:9afa0c87811090a361da82f91e7ce644-us10"
+        auth: ""
     };
     const request = https.request(myurl, options, function(response) {
 
